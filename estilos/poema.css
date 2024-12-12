@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black
+    ;
+    color: white;
+    text-align: center;
+    }
+
+header>h1{
+font-variant: small-caps;
+padding-top: 50px;
+font-family: var(--fonte3);
+font-size: 7vw;
+}
+header>p{
+    padding-bottom: 50px;
+}
+
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+ 
+}
+section.imagem{
+    background-color: rgb(74, 73, 73);
+    color: white;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    display: inline-block;
+   
+    padding: 5px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
+section#img1{
+background-image: url(../poema/foto02.jpg);
+background-size: cover;
+background-position: center center;
+}
+section#img2{
+    background-image: url(../poema/foto1.jpg);
+    background-size: cover;
+    box-shadow: inset 2px 2px 13px 0px black;
+   background-position: center bottom;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: darkgray;
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

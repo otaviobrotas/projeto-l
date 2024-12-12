@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{margin: 0px; padding: 0px;
+    text-shadow: none; }
+
+body, html {background-color: #D9A092;
+    background-image: url(../fundo/floraq.webp);
+ 
+background-position: center center;
+}
+
+main
+{background-color: #E1D5C9;
+ height: 90vh;
+width: 50%;
+margin: auto;
+margin-top: 60px;
+border-radius: 25px;
+font-family: "Great Vibes", cursive;
+color: #4E3629;
+
+
+}
+
+main h1{
+text-align: center; font-size: 4vw; text-shadow: 1px 4px 3px black;
+padding-top: 20px;
+}
+
+main p
+{
+text-align: center;
+text-shadow: none; 
+font-size: 2vw;
+
+}
+
+img{width: 100px;
+height: 100px;
+border-radius: 15px;
+margin-left: 20px;
+margin-top: 100px;
+}
+
+.fotos{display: grid;
+
+grid-template-columns: repeat(3, 1fr);;
+gap: 20px;
+}
+
+
+
+
+img:hover{width: 200px;
+    height: 200px;
+transition: 1s;}
+
+.legenda{text-align: left;}
+
+a{text-decoration: none;
+color: #4E3629;
+}
+
+a:hover{color: rgb(243, 128, 243);}
+
+
+
+
+
+h2
+{text-align: center;
+margin-top: 10px;
+}
+#txt2
+{font-size: 3vh;
+
+  color: #6A4E3C ; 
+  text-shadow: none; 
+}
